@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const TextComp = ({ topHeading, heading, description, image }: any) => {
   return (
@@ -9,10 +10,12 @@ const TextComp = ({ topHeading, heading, description, image }: any) => {
         <p className="step-description">{description}</p>
       </div>
       <div className="step-img-box col-span-1">
-        <img
+        <Image
           src={image || "./img/app/app-screen-1.png"}
           alt="iPhone app preferences selection screen"
           className="step-img"
+          width={50}
+          height={50}
         />
       </div>
     </div>

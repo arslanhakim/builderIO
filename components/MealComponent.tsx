@@ -9,8 +9,8 @@ const MealComponent = ({ type, title, calories, score, ratings, img }: any) => {
       <Image
         src="https://images.unsplash.com/photo-1682687980918-3c2149a8f110?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
         className="w-full"
-        width={100}
-        height={100}
+        width={50}
+        height={50}
         alt="Japanese Gyozas"
       />
       <div className="meal-content">

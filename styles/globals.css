@@ -85,7 +85,7 @@ body {
   cursor: pointer;
 }
 .meal:hover {
-  transform: translate(0,-2%);
+  transform: translate(0, -2%);
 }
 .meal-img {
   width: 100%;
