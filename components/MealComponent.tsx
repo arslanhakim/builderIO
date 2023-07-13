@@ -7,9 +7,10 @@ const MealComponent = ({ type, title, calories, score, ratings, img }: any) => {
   return (
     <div className="meal ">
       <Image
-        src="https://images.unsplash.com/photo-1682687980918-3c2149a8f110?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+        // src="https://images.unsplash.com/photo-1682687980918-3c2149a8f110?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+        src="/images/meal-2.jpg"
         className="w-full"
-        width={50}
+        width={100}
         height={50}
         alt="Japanese Gyozas"
       />
